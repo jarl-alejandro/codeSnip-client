@@ -21,6 +21,7 @@ class Form extends Component {
     const response = await this.props.mutate({
       variables: object
     })
+    alert('Guardado...')
     console.log('Graphql response:', response)
   }
 
